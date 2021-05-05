@@ -1,0 +1,22 @@
+.error-page {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E9EBED;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 20px 30px;
+
+  h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2C3F52;
+  }
+  .icon {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+}

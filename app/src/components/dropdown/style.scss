@@ -1,0 +1,73 @@
+.dropdown-wrap {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #0094DF;
+  cursor: pointer;
+  &:hover {
+    color: #0094DF;
+  }
+  .turn-up {
+    &:before {
+      content: "\f077";
+      font-style: normal;
+      font-family: "Font Awesome 5 Free";
+    }
+  }
+
+  .turn-down {
+    &:before {
+      content: "\f078";
+      font-style: normal;
+      font-family: "Font Awesome 5 Free";
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    z-index: 20;
+    right: 0;
+    li {
+      cursor: pointer;
+      margin-bottom: 10px;
+      color: #0094DF;
+      font-size: 15px;
+      line-height: 21px;
+      &:hover {
+        color: #0a83c0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .dropdown-wrap {
+    top: 30px;
+    font-size: 0px;
+    .turn-up {
+      font-size: 15px;
+      &:before {
+        content: "\f142";
+      }
+    }
+    .turn-down {
+      font-size: 15px;
+      &:before {
+        content: "\f142";
+      }
+    }
+    ul {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+}

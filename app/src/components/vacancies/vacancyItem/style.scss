@@ -1,0 +1,50 @@
+.vacancy-item {
+  position: relative;
+  background: #fff;
+  padding: 30px 30px 20px;
+  border: 1px solid #E9EBED;
+  box-sizing: border-box;
+
+  h3 { 
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #0094DF;
+    margin-bottom: 20px;
+  }
+  .price {
+    color: #2C3F52;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    &-info {
+      display: flex;
+      align-items: center;
+      color: #6b7886;
+      font-weight: normal;
+      i {
+        padding: 0px 10px;
+        font-size: 5px;
+      }
+    }
+  }
+  .info {
+    color: #2C3F52;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .vacancy-item {
+    h3 { 
+      font-size: 19px;
+      line-height: 21px;
+      padding-right: 30px;
+    }
+  }
+}

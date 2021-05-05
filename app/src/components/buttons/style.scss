@@ -1,0 +1,39 @@
+.custom-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;  
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  &.btn-addVacancy {
+    background: #74C241;
+    &:hover {
+      background-color: #6eb83e;
+    }
+    &:active {
+      background-color: #60963c;
+    }
+    &:focus {
+      background-color: #6eb83e;
+    }
+  }
+  &.btn-blue {
+    background: #00A1F1;
+    &:hover {
+      background-color: #0c95da;
+    }
+    &:active {
+      background-color: #078bce;
+    }
+    &:focus {
+      background-color: #0e7eb6;
+    }
+  }
+}
